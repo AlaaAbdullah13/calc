@@ -1,0 +1,127 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
+}
+h1{
+    font-size: 24px;
+    text-align: center;
+    font-family:"Playwrite PE", cursive;;
+    font-style: italic;
+    padding-top: 35px;
+}
+label{
+    font-size: 17px;
+    position:absolute;
+    transform: rotate(-30deg);
+    margin-top: -3px;
+
+}
+.container{
+    border: 2px solid white;
+    border-radius: 15px;
+    outline: 2px solid black;
+    box-shadow: 10px 20px 15px rgba(31, 29, 29, 0.534);
+    width: 250px;
+    height: 350px;
+    padding:15px 13px 2px 13px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50% ,-50%);
+    background-color: pink;
+}
+#screen{
+    margin:5px;
+    padding: 15px;
+    width: 210px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: black;
+    pointer-events: none;
+}
+.first_col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.first_col button{
+    width: 100px;
+    color:rgb(240, 127, 146);
+    margin-right:px;
+    text-align: center;
+    font-size: 15px;
+}
+.second_col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.second_col button{
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+}
+.operator{
+    color: rgb(240, 127, 146);
+}
+
+.third_col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.third_col button{
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+}
+.fourth_col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.fourth_col button{
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+}
+.last_col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.last_col button{
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+}
+#equal{
+    background-color: rgb(240, 127, 146);
+    border: 1px solid #fbd3e9 ,#bb377d;
+    color: white;
+    padding: 10px;
+    width: 212px;
+    border-radius: 15px;
+
+}
+#equal:hover{
+    cursor:pointer;
+    box-shadow: 1px 2px 3px gray;
+    background:linear-gradient(to bottom right,rgb(214, 213, 213) , rgb(240, 127, 146) );
+    border-width: 3px;
+    border-radius: 15px;
+}
